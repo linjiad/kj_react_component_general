@@ -1,0 +1,49 @@
+/*  修改日历控件类型 */
+.my_date_picker::-webkit-datetime-edit { padding-left: 0px;color:#6be9ff;background:rgba(0,0,0,0);}  /*控制编辑区域的*/
+.my_date_picker::-webkit-datetime-edit-fields-wrapper { background-color: rgba(0,0,0,0);font-size:14px;line-height:20px;}    /*控制年月日这个区域的*/
+.my_date_picker::-webkit-datetime-edit-text { color: #7d7d7d; padding:0; }  /*这是控制年月日之间的斜线或短横线的*/
+.my_date_picker::-webkit-datetime-edit-year-field { background-color: rgba(0,0,0,0);color: #7d7d7d; }    /*控制年文字, 如2013四个字母占据的那片地方*/
+.my_date_picker::-webkit-datetime-edit-month-field { background-color: rgba(0,0,0,0);color: #7d7d7d; }    /*控制月份*/
+.my_date_picker::-webkit-datetime-edit-day-field { background-color: rgba(0,0,0,0);color: #7d7d7d; }    /*控制具体日子*/
+.my_date_picker::-webkit-inner-spin-button { visibility: hidden; }    /*这是控制上下小箭头的*/
+.my_date_picker::-webkit-calendar-picker-indicator {      /*这是控制下拉小箭头的*/
+  //background-image: url("../../img/shuizhi/time_bg.png");
+  border: 0;
+  margin-right: 1px;
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  background-repeat: no-repeat;
+  background-color:transparent ;
+}
+::-webkit-clear-button {    /*控制清除按钮*/
+  //visibility: hidden;
+}
+.my_date_picker{
+  font-size:14px;
+  border-radius: 2px;
+  padding:0 8px;
+  min-width:180px;
+  background-color: #ffffff;
+  border: 1px solid #e3e4e6;
+  height: 37px;line-height:37px;
+  color: #7b7b7d;
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+}
+.date_picker_title{
+  height: 37px;
+  line-height:37px;
+  min-width: 80px;
+  margin-right: 10px;
+  font-size: 14px;
+  color: #7d7d7d;
+}
+.my_date_picker:hover {
+  -webkit-transition: color.5s;
+  border-color: #40a9ff;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}

@@ -1,0 +1,60 @@
+.my_textareaBox {
+  color: #7b7b7d;
+  .my_textarea_title{
+    height: 37px;
+    line-height:37px;
+    min-width: 80px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #7d7d7d;
+  }
+  .my_textarea {
+    padding: 0 8px;
+    line-height: 25px;
+    font-size: 14px;
+    min-width: 75%;
+    border-radius: 2px;
+    background: #ffffff;
+    border: 1px solid #e3e4e6;
+    color: #7b7b7d;
+  }
+
+  .my_textarea:focus {
+    border-color: rgba(102,175,233,.8);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 4px rgba(102,175,233,.6)
+  }
+
+  .my_textarea::-webkit-input-placeholder {
+    color: #c2c2c2;
+    -webkit-transition: color .5s;
+  }
+
+  .my_textarea:focus::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+    color: #7b7b7d;
+    -webkit-transition: color.5s;
+  }
+
+  .my_textarea:hover {
+    border-color: #40a9ff;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+    -webkit-transition: color.5s;
+  }
+
+  .my_textarea_txtErr {
+  }
+  .my_textarea_txtErr:focus {
+    outline: #cc211b;
+  }
+  .my_textarea_tips {
+    margin-left: 90px;
+    width: 100%;
+    color: red;
+    overflow: hidden;
+    line-height: 30px;
+    font-size: 12px;
+  }
+}
