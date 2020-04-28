@@ -1,0 +1,68 @@
+.my_fuwenben{
+  height:400px;
+  width:700px;
+  display: flex;
+  flex-direction: column;
+  .my_menuList{
+    width: 100%;
+    background-color: #b6b7b7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border:solid 1px black;
+    .my_menuItem{
+      margin:5px 5px 5px 5px;
+      background: #c1c1c1;
+      cursor: pointer;
+    }
+    .my_menuItem2{
+      margin-top:5px;
+      margin-bottom:5px;
+      margin-left: 5px;
+      background: #c1c1c1;
+      cursor: pointer;
+    }
+    .my_menuItemInput{
+      margin-top:5px;
+      margin-bottom:5px;
+      margin-right: 5px;
+      width: 20px;
+    }
+    .my_menuItem:hover{
+      background-color: #65dbe6;
+    }
+    .my_emojiList{
+      width: 300px;
+      height: 170px;
+      position: absolute;
+      display:none;
+    }
+  }
+  .my_edit{
+    width: 100%;
+    height: 300px;
+    font-size: 15px;
+    overflow: auto;
+    border:solid 1px black;
+    ul{
+      margin-left: 10px;
+      li{
+        margin-left: 10px;
+        list-style-type:disc;
+      }
+    }
+    ol{
+      margin-left: 10px;
+      li{
+        margin-left: 10px;
+        list-style-type:decimal;
+      }
+    }
+    img{
+      width: 200px;
+      height: 100px;
+      //padding: 5px 5px 5px 5px;
+      //border: dotted #1a9be6 1px;
+    }
+  }
+}

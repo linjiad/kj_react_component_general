@@ -39,6 +39,7 @@ import Tree from "./Tree";
 const message = new Message();
 const downExcleCSV = new DownExcleCSV();
 const downExcleXLS = new DownExcleXLS();
+import RichText from "./RichText"
 export default {
     LeftSideMenu, LeftSideMenuItem, LeftSideMenuSub,
     message,
@@ -66,5 +67,6 @@ export default {
     Tooltip,
     Popconfirm,
     Tree,
+    RichText,
 };
 
